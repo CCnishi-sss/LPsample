@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LPsample/static/css/main.62fa1981.css",
+    "main.js": "/LPsample/static/js/main.bca2831c.js",
+    "index.html": "/LPsample/index.html",
+    "main.62fa1981.css.map": "/LPsample/static/css/main.62fa1981.css.map",
+    "main.bca2831c.js.map": "/LPsample/static/js/main.bca2831c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62fa1981.css",
+    "static/js/main.bca2831c.js"
+  ]
+}

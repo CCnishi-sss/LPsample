@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.62fa1981.css","mappings":"AAAC,KAGC,wBAAyB,CACzB,UAAY,CAHZ,2BAA+B,CAC/B,iBAGF,CAEA,eACE,eACF","sources":["styles.css"],"sourcesContent":[" body {\n  font-family: 'Lora', sans-serif;\n  text-align: center;\n  background-color: #282c34;\n  color: white;\n}\n\n.app-container {\n  margin-top: 20vh;\n}\n\n"],"names":[],"sourceRoot":""}
