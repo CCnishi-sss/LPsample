@@ -1,0 +1,11 @@
+ body {
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.app-container {
+  margin-top: 20vh;
+}
+
