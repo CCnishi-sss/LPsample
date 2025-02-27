@@ -9,6 +9,14 @@ const FooterContainer = styled.footer`
   position: fixed;
   bottom: 0;
   width: 100%;
+  @media (max-width: 1024px){
+    
+    }
+  @media (max-width: 768px){
+    font-size: 0.7rem;  
+    }
+
+
 `;
 
 const Footer = () => {
