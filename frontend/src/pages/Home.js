@@ -95,8 +95,8 @@ const HomeTitle2 = styled.h1`
 const Home = () => {
   return (
     <HomeContainer>
-      <BackgroundImage src="/images/tree.jpg" alt="Tree Background" />
-      <Logo src="/images/logo.png" alt="Logo" />
+      <BackgroundImage src={`${process.env.PUBLIC_URL}/images/tree.jpg`} alt="Tree Background" />
+      <Logo src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="Logo" />
       <HomeTitle1>Build to Grow,</HomeTitle1>
       <HomeTitle2>Designed to Evolve</HomeTitle2>
     </HomeContainer>

@@ -86,7 +86,7 @@ const ServiceTitle2 = styled.h2`
 const Works = () => {
   return (
     <WorksContainer>
-    <BackgroundImage src="/images/back.png" alt="Background" />
+    <BackgroundImage src={`${process.env.PUBLIC_URL}/images/back.png`} alt="Background" />
       <Title>service</Title>
         <ServiceTitle1>LP制作</ServiceTitle1>
         <ServiceTitle2>ポートフォリオ制作</ServiceTitle2>

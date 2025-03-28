@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 const AboutContainer = styled.div`
   background: ${({ theme }) => theme.colors.aboutBg};
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -93,8 +94,43 @@ const Description = styled.p`
     top: 10%;
     }
 
+`;
+const BannerLink = styled.a`
+  display: block;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+  }
+  @media (max-width: 1024px){
+    position: absolute;    
+    bottom: 30%;
+    right: 5%;
+    width: 200%;
+    }
+@media (max-width: 768px){
+    position:absolute;
+    bottom: 40%;
+    right: 5%;
+    width: 65%;
+    }
 
 `;
+
 
 const About = () => {
   return (
@@ -107,6 +143,16 @@ const About = () => {
         design
       </SelfInfo>
       <Description>人とAIが創る、次のステージ。</Description>
+      <BannerLink
+        href="https://nishi-sss.github.io/Portfolio01Re/"
+        target="_blank"
+        rel="noopener noreferrer"
+         >
+        <img
+          src={`${process.env.PUBLIC_URL}/images/banner.png`}
+          alt="ポートフォリオはこちら！"
+        />
+      </BannerLink>
     </AboutContainer>
   );
 };

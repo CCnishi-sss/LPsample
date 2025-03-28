@@ -134,7 +134,7 @@ const Contact = () => {
           <SubmitButton type="submit">送信</SubmitButton>
         </Form>
       </FormContainer>
-      <BackgroundImage src="/images/sky.jpg" alt="BlueSky" />
+      <BackgroundImage src={`${process.env.PUBLIC_URL}/images/sky.jpg`} alt="BlueSky" />
     </ContactContainer>
   );
 };
